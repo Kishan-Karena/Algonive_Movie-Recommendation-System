@@ -6,7 +6,7 @@ import pandas as pd
 st.set_page_config(layout="wide")
 
 def fetch_poster(movie_id):
-    api_key = '6b95799a3d3dfcc8a9dd2a05b0f7a3f2'
+    api_key = ''
     url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}'
     
     try:
